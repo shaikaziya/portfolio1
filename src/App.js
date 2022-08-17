@@ -37,7 +37,7 @@ function App() {
         <Button color="inherit"  onClick={()=>{navigate("/contact")}}>Contact</Button>
         <Button color="inherit"  onClick={()=>{navigate("/blog")}}>Blog</Button>
         <Button
-        style={{marginLeft:1000}}
+        style={{marginLeft:600}}
         color="inherit"  onClick={()=>{setMode(mode==="light"?"dark":"light")}}>{mode==="light"?"dark":"light"} Mode</Button>
         {mode=== "light" ? <Brightness4Icon /> : <Brightness7Icon />}
       </Toolbar>
