@@ -5,7 +5,7 @@ export function About(){
                marginleft:"40%",
                borderradius:"50%",
                marginTop:"100px",  
-               marginLeft:"650px"
+               marginLeft:"500px"
     }
     return(
         <div id="about">
