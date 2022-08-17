@@ -54,7 +54,7 @@ h1{
 .projectimage{
   display: grid;
   grid-template-columns: auto auto auto auto;
-  margin-left:250px;
+  margin-left:180px;
 }
 #profilename{
   margin-left:4px;
