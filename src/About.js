@@ -1,11 +1,11 @@
 export function About(){
     const styles={
-                width:"200px",
+               width:"200px",
                height:"200px",
                marginleft:"40%",
                borderradius:"50%",
-                marginTop:"100px",  
-                marginLeft:"700px"
+               marginTop:"100px",  
+               marginLeft:"650px"
     }
     return(
         <div id="about">
