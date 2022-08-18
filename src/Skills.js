@@ -37,9 +37,14 @@ export function Skills(){
     {
         name:"Bootstrap",
         image:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png",
+    },
+    {
+    name:"Django",
+    image:"https://res.cloudinary.com/practicaldev/image/fetch/s--iEmy2OHM--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4bv6tjo2s9zq7oycou2x.jpeg"
     }
 ]
-    return(
+
+return(
         <div>
         <h1>Skills</h1>
         <div className="Skillsmapimage">

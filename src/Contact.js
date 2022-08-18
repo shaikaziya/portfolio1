@@ -5,7 +5,6 @@ import Toolbar from "@mui/material/Toolbar";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
 import EmailIcon from '@mui/icons-material/Email';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import './App.css';
@@ -36,9 +35,6 @@ export function Contact(){
           </Button>
           <Button id="button1" color="primary" >
            <LinkedInIcon/>
-          </Button>
-          <Button id="button1" color="secondary" >
-            <InstagramIcon id="i1"/>
           </Button>
           <Button id="button1" color="warning">
             <EmailIcon/>
