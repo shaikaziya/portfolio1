@@ -37,7 +37,7 @@ function App() {
       <AppBar position="static">
         <Toolbar>
         {/* <Avatar alt="Remy Sharp" src="http://images4.fanpop.com/image/photos/22100000/The-letter-A-the-letter-a-22186960-2560-2560.jpg" /> */}
-        <h1>Shaik Aziya Sulthana</h1>
+        <h3>Shaik Aziya Sulthana</h3>
         <Button style={{marginLeft:70}} color="inherit"  onClick={()=>{navigate("/")}}><HomeIcon/> Home</Button>
         <Button  color="inherit"  onClick={()=>{navigate("/about")}}><PersonOutlineIcon/> About</Button>
         <Button color="inherit"  onClick={()=>{navigate("/skills")}}><LibraryBooksIcon/> Skills</Button>
