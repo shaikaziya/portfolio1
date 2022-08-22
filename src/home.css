@@ -1,4 +1,9 @@
-p{
+
+#profilename1{
+    font-family: 'Lucida'
+}
+#profilename2{
+    font-family: 'Lucida';
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
 }

@@ -4,7 +4,7 @@ export function About(){
         return(
          <div>
                 {/* <img style={styles} id="profileimage" src="http://images4.fanpop.com/image/photos/22100000/The-letter-A-the-letter-a-22186960-2560-2560.jpg" alt=""></img> */}
-                <h1 className="profilename"><b>About me</b></h1>
+                <h2 className="profilename"><b>About me</b></h2>
                     <p>My Introduction</p>
                     
                     <div className="edit">

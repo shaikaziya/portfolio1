@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.buttonstyle{
+  font-family:'Lucida'
+}
+.buttonstyle:hover{
+  font-size: large;
+}

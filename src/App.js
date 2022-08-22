@@ -3,7 +3,7 @@ import {Routes,Route} from "react-router-dom"
 import {Home} from './Home'
 import { About } from './About';
 import { Skills } from './Skills';
-import { WorkProjects } from './WorkProjects';
+import { ProjectsWorks } from './ProjectsWorks';
 import { Contact } from './Contact';
 import { Blog } from './Blog';
 import AppBar from '@mui/material/AppBar';
@@ -15,7 +15,6 @@ import { useState } from 'react';
 import { CssBaseline } from "@mui/material";
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
-// import Avatar from '@mui/material/Avatar';
 import HomeIcon from '@mui/icons-material/Home';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
@@ -36,15 +35,14 @@ function App() {
     <div className="App">
       <AppBar position="static">
         <Toolbar>
-        {/* <Avatar alt="Remy Sharp" src="http://images4.fanpop.com/image/photos/22100000/The-letter-A-the-letter-a-22186960-2560-2560.jpg" /> */}
         <h3>Shaik Aziya Sulthana</h3>
-        <Button style={{marginLeft:70}} color="inherit"  onClick={()=>{navigate("/")}}><HomeIcon/> Home</Button>
-        <Button  color="inherit"  onClick={()=>{navigate("/about")}}><PersonOutlineIcon/> About</Button>
-        <Button color="inherit"  onClick={()=>{navigate("/skills")}}><LibraryBooksIcon/> Skills</Button>
-        <Button  color="inherit"  onClick={()=>{navigate("/work")}}><ViewComfyIcon/> Projects</Button>
-        <Button  color="inherit"  onClick={()=>{navigate("/contact")}}><ContactPageIcon/> Contact</Button>
+        <Button className="buttonstyle" style={{marginLeft:70}} color="inherit"  onClick={()=>{navigate("/")}}><HomeIcon/> Home</Button>
+        <Button className="buttonstyle" color="inherit"  onClick={()=>{navigate("/about")}}><PersonOutlineIcon/> About</Button>
+        <Button className="buttonstyle" color="inherit"  onClick={()=>{navigate("/skills")}}><LibraryBooksIcon/> Skills</Button>
+        <Button className="buttonstyle" color="inherit"  onClick={()=>{navigate("/work")}}><ViewComfyIcon/> Projects</Button>
+        <Button className="buttonstyle" color="inherit"  onClick={()=>{navigate("/contact")}}><ContactPageIcon/> Contact</Button>
         <Button
-        style={{marginLeft:200}}
+        style={{marginLeft:200}} className="buttonstyle"
         color="inherit"  onClick={()=>{setMode(mode==="light"?"dark":"light")}}>{mode==="light"?"dark":"light"} Mode</Button>
         {mode=== "light" ? <Brightness4Icon /> : <Brightness7Icon />}
       </Toolbar>
@@ -54,7 +52,7 @@ function App() {
           <Route  path="/" element={<Home />}/>
           <Route  path="/about" element={<About />}/>
           <Route  path="/skills" element={<Skills  />}/>
-          <Route  path="/work" element={<WorkProjects />}/>
+          <Route  path="/work" element={<ProjectsWorks />}/>
           <Route  path="/contact" element={<Contact />}/>
       </Routes> 
      

@@ -10,8 +10,7 @@ export function Contact() {
   const Navigate = useNavigate();
   return (
     <div>
-      <h1>Contact Me</h1>
-      <p>Get in touch</p>
+      <h2>Contact Me</h2>
       <div className="contact-list">
         <div className="list">
         <h4>Call me <br></br><small>9701658255</small></h4>
