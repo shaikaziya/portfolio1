@@ -1,3 +1,4 @@
+import "./projects.css"
 import {Projectsmap} from "./Projectsmap"
 export function WorkProjects(){
     const projects=[{

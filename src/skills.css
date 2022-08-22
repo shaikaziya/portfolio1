@@ -1,0 +1,13 @@
+.Skillsmapimage{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left:250px;
+  }
+  .image{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width:100px;
+    height:100px;
+    object-fit: cover;
+    margin-top: 20px;
+  }

@@ -1,5 +1,5 @@
+import './skills.css';
 import {Skillsmap} from "./Skillsmap"
-import './App.css';
 export function Skills(){
     const skills=[
         {

@@ -1,0 +1,46 @@
+p{
+  text-align: center;
+}
+.textfield{
+    margin-right: 80%;
+    
+  }
+  #contact{
+    margin-left:40%;
+    font-family:Lucida;
+  }
+  #toolbar{
+    margin-left:150px;
+  }
+  #button1{
+    width:150px;
+    height:80px;
+    margin-left:30px;
+    border-radius: 50%;
+  }
+  #button1:hover{
+    background-image:radial-gradient(yellow, greenyellow );
+  }
+  #i1{
+    height:50px;
+  }
+  #sub:hover{
+    font-size: 110%;
+  }
+  h1{
+    text-align: center;
+  }
+  
+  .contact-list{
+    
+    margin-left:0%;
+    margin-top: 5%;
+  }
+  .contact-list{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .list{
+    margin-left:55%;
+    
+  }

@@ -1,71 +1,38 @@
-.Skillsmapimage{
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  margin-left:250px;
-}
-.image{
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  width:100px;
-  height:100px;
-  object-fit: cover;
-  margin-top: 20px;
-}
-.textfield{
-  margin-left:30%;
-  margin-top: 5%;
-}
-#contact{
-  margin-left:40%;
-  font-family:Lucida;
-}
-#toolbar{
-  margin-left:150px;
-}
-#button1{
-  width:150px;
-  height:80px;
-  margin-left:30px;
-  border-radius: 50%;
-}
-#button1:hover{
-  background-image:radial-gradient(yellow, greenyellow );
-}
-#i1{
-  height:50px;
-}
-#sub:hover{
-  font-size: 110%;
-}
-h1{
+.App {
   text-align: center;
 }
-#filled-basic{
-  text-align: center;
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
-.projects{
-  margin:50px;
-  margin-left:5px
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
-.projectsimage{
-  width:220px;
-  height:150px;
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
-.projectimage{
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  margin-left:180px;
+
+.App-link {
+  color: #61dafb;
 }
-#profilename{
-  margin-left:4px;
-  font-family: monospace;
-}
-#profiledescription{
-  font-weight: 200;
-  font-style: italic;
-  font-family: Lucida;
-  word-spacing: 10px;
-  justify-content: justify;
-  line-height: 150%;
-  margin:40px;
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
