@@ -38,12 +38,11 @@ function App() {
         <Toolbar>
         {/* <Avatar alt="Remy Sharp" src="http://images4.fanpop.com/image/photos/22100000/The-letter-A-the-letter-a-22186960-2560-2560.jpg" /> */}
         <h1>Shaik Aziya Sulthana</h1>
-        <Button style={{marginLeft:150}} color="inherit"  onClick={()=>{navigate("/")}}><HomeIcon/> Home</Button>
-        <Button  style={{marginLeft:20}} color="inherit"  onClick={()=>{navigate("/about")}}><PersonOutlineIcon/> About</Button>
-        <Button style={{marginLeft:20}} color="inherit"  onClick={()=>{navigate("/skills")}}><LibraryBooksIcon/> Skills</Button>
-        <Button style={{marginLeft:20}} color="inherit"  onClick={()=>{navigate("/work")}}><ViewComfyIcon/> Projects</Button>
-        <Button style={{marginLeft:20}} color="inherit"  onClick={()=>{navigate("/contact")}}><ContactPageIcon/> Contact</Button>
-        {/* <Button color="inherit"  onClick={()=>{navigate("/blog")}}> Blog</Button> */}
+        <Button style={{marginLeft:100}} color="inherit"  onClick={()=>{navigate("/")}}><HomeIcon/> Home</Button>
+        <Button  style={{marginLeft:10}} color="inherit"  onClick={()=>{navigate("/about")}}><PersonOutlineIcon/> About</Button>
+        <Button style={{marginLeft:10}} color="inherit"  onClick={()=>{navigate("/skills")}}><LibraryBooksIcon/> Skills</Button>
+        <Button style={{marginLeft:10}} color="inherit"  onClick={()=>{navigate("/work")}}><ViewComfyIcon/> Projects</Button>
+        <Button style={{marginLeft:10}} color="inherit"  onClick={()=>{navigate("/contact")}}><ContactPageIcon/> Contact</Button>
         <Button
         style={{marginLeft:300}}
         color="inherit"  onClick={()=>{setMode(mode==="light"?"dark":"light")}}>{mode==="light"?"dark":"light"} Mode</Button>
@@ -57,7 +56,6 @@ function App() {
           <Route  path="/skills" element={<Skills  />}/>
           <Route  path="/work" element={<WorkProjects />}/>
           <Route  path="/contact" element={<Contact />}/>
-          <Route  path="/blog" element={<Blog />}/>
       </Routes> 
      
     </div>
