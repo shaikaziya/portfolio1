@@ -1,7 +1,7 @@
 .Skillsmapimage{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    margin-left:250px;
+    margin-left:100px;
   }
   .image{
     display: grid;
