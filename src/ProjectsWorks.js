@@ -20,7 +20,7 @@ export function ProjectsWorks(){
     return(         
         <div>
             <h2>Projects</h2>
-            <div className="projectimage">
+            <div className="projectworkdiv">
             {projects.map((proj)=>
             <Projectsmap application={proj.application} description={proj.description} image={proj.image}  />
             )}

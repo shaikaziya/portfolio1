@@ -38,7 +38,8 @@
 }
 
 .buttonstyle{
-  font-family:'Lucida'
+  font-family:'Lucida';
+  
 }
 .buttonstyle:hover{
   font-size: large;
