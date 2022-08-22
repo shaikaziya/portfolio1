@@ -37,12 +37,12 @@ function App() {
       <AppBar position="static">
         <Toolbar>
         {/* <Avatar alt="Remy Sharp" src="http://images4.fanpop.com/image/photos/22100000/The-letter-A-the-letter-a-22186960-2560-2560.jpg" /> */}
-        <h1 style={{marginRight:20}}>Shaik Aziya Sulthana</h1>
-        <Button style={{marginLeft:200}} color="inherit"  onClick={()=>{navigate("/")}}><HomeIcon/> Home</Button>
-        <Button  style={{marginLeft:10}} color="inherit"  onClick={()=>{navigate("/about")}}><PersonOutlineIcon/> About</Button>
-        <Button style={{marginLeft:10}} color="inherit"  onClick={()=>{navigate("/skills")}}><LibraryBooksIcon/> Skills</Button>
-        <Button style={{marginLeft:10}} color="inherit"  onClick={()=>{navigate("/work")}}><ViewComfyIcon/> Projects</Button>
-        <Button style={{marginLeft:10}} color="inherit"  onClick={()=>{navigate("/contact")}}><ContactPageIcon/> Contact</Button>
+        <h1>Shaik Aziya Sulthana</h1>
+        <Button style={{marginLeft:70}} color="inherit"  onClick={()=>{navigate("/")}}><HomeIcon/> Home</Button>
+        <Button  color="inherit"  onClick={()=>{navigate("/about")}}><PersonOutlineIcon/> About</Button>
+        <Button color="inherit"  onClick={()=>{navigate("/skills")}}><LibraryBooksIcon/> Skills</Button>
+        <Button  color="inherit"  onClick={()=>{navigate("/work")}}><ViewComfyIcon/> Projects</Button>
+        <Button  color="inherit"  onClick={()=>{navigate("/contact")}}><ContactPageIcon/> Contact</Button>
         <Button
         style={{marginLeft:200}}
         color="inherit"  onClick={()=>{setMode(mode==="light"?"dark":"light")}}>{mode==="light"?"dark":"light"} Mode</Button>
