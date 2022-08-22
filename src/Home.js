@@ -4,7 +4,6 @@ export function Home(){
     const styles={
                width:"200px",
                height:"200px",
-               marginLeft:"45%",
                marginTop:"15px",  
     }
     return(
