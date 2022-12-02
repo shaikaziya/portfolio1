@@ -26,19 +26,19 @@ function Projects() {
 
             <div class="col-lg-4 col-md-4 col-sm-4">
               <div class="insidebox text-center">
-                <img className="img" src="https://media1.giphy.com/media/26FPJGjhefSJuaRhu/giphy.gif" alt={project1} />
-                <h5>Chat App</h5>
+                <img className="img" src="https://images.bhaskarassets.com/web2images/521/2019/11/27/fasttag_1574847691.gif" alt={project1} />
+                <h5>Toll Management System</h5>
                 
                 <div className="card-footer">
                   <p>
                     <span style={{ color: "black" }}>TECH USED : </span>
-                    REACT, NODE, EXPRESS, MONGODB,Socket.io
+                    REACT
                   </p>
                 </div>
                 <div className="git">
                   <Button
                     target="_blank"
-                    href=""
+                    href="https://github.com/shaikaziya/toll-management-system"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
@@ -46,19 +46,10 @@ function Projects() {
                     <GitHubIcon />
                     FE
                   </Button>
+                 
                   <Button
                     target="_blank"
-                    href=""
-                    rel="noreferrer"
-                    variant="contained"
-                    className="live-btn"
-                  >
-                    <GitHubIcon />
-                    BE
-                  </Button>
-                  <Button
-                    target="_blank"
-                    href=""
+                    href="https://strong-yeot-b568e2.netlify.app"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
@@ -169,7 +160,7 @@ function Projects() {
 
             <div class="col-lg-4 col-md-4 col-sm-4">
               <div class="insidebox text-center">
-                <img className="img" src="https://media1.giphy.com/media/26FPJGjhefSJuaRhu/giphy.gif" alt={project1} />
+                <img className="img" src="https://media.tenor.com/besbrKR8NUIAAAAM/movie-time-film.gif" alt={project1} />
                 <h5>Movie App</h5>
                 
                 <div className="card-footer">
