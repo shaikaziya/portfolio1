@@ -1,63 +1,84 @@
+// import Button from '@mui/material/Button';
+// import AppBar from '@mui/material/AppBar';
+// import Toolbar from '@mui/material/Toolbar';
 
-import {Routes,Route} from "react-router-dom"
-import {Home} from './Home'
-import { About } from './About';
-import { Skills } from './Skills';
-import { ProjectsWorks } from './ProjectsWorks';
-import { Contact } from './Contact';
-import { Blog } from './Blog';
+
+import { Routes, Route} from "react-router-dom";
+
+import "./App.css";
+
+import About from "./Components/About";
+import Contact from "./Components/Contact";
+import Home from "./Components/Home";
+import Navbar from "./Components/Navbar";
+import Projects from "./Components/Projects";
+import Skill from "./Components/Skills";
+import { useState} from "react";
+import {useNavigate } from "react-router-dom";
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
-import {useNavigate} from "react-router-dom"
-import { ThemeProvider, createTheme } from '@mui/material/styles';
-import { useState } from 'react';
-import { CssBaseline } from "@mui/material";
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
-import HomeIcon from '@mui/icons-material/Home';
-import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
-import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
-import ViewComfyIcon from '@mui/icons-material/ViewComfy';
-import ContactPageIcon from '@mui/icons-material/ContactPage';
+import CssBaseline from '@mui/material/CssBaseline';
+import Paper from '@mui/material/Paper';
 
 function App() {
-  const navigate=useNavigate()
-  const[mode,setMode]=useState("light")
-  const theme = createTheme({
+  const navigate = useNavigate();
+  const [mode, setMode] = useState("light");
+ const theme = createTheme({
     palette: {
-      mode:mode,
+      mode: mode,
     },
   });
-  return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline/>
-    <div className="App">
-      <AppBar position="static">
-        <Toolbar>
-        <h3>Shaik Aziya Sulthana</h3>
-        <Button className="buttonstyle" style={{marginLeft:70}} color="inherit"  onClick={()=>{navigate("/")}}><HomeIcon/> Home</Button>
-        <Button className="buttonstyle" color="inherit"  onClick={()=>{navigate("/about")}}><PersonOutlineIcon/> About</Button>
-        <Button className="buttonstyle" color="inherit"  onClick={()=>{navigate("/skills")}}><LibraryBooksIcon/> Skills</Button>
-        <Button className="buttonstyle" color="inherit"  onClick={()=>{navigate("/work")}}><ViewComfyIcon/> Projects</Button>
-        <Button className="buttonstyle" color="inherit"  onClick={()=>{navigate("/contact")}}><ContactPageIcon/> Contact</Button>
-        <Button
-        style={{marginLeft:200}} className="buttonstyle"
-        color="inherit"  onClick={()=>{setMode(mode==="light"?"dark":"light")}}>{mode==="light"?"dark":"light"} Mode</Button>
-        {mode=== "light" ? <Brightness4Icon /> : <Brightness7Icon />}
-      </Toolbar>
-      </AppBar>
+  const styles = {
+    marginLeft: "300px"
+}
 
-       <Routes>
-          <Route  path="/" element={<Home />}/>
-          <Route  path="/about" element={<About />}/>
-          <Route  path="/skills" element={<Skills  />}/>
-          <Route  path="/work" element={<ProjectsWorks />}/>
-          <Route  path="/contact" element={<Contact />}/>
-      </Routes> 
-     
-    </div>
-    </ ThemeProvider>
+const navstyles = {
+  marginLeft:"300px",
+  // marginRight:"30px"
+}
+
+  return (
+<ThemeProvider theme={theme}>
+      <Paper style={{borderRadius: 0, minHeight: "100vh"}}elevation={24} >
+ 
+      <div className="App">
+
+
+ <AppBar position="static">
+ <Toolbar style={navstyles}>
+  <Button color="inherit" 
+  onClick={() => navigate("/")}>HOME</Button>
+  <Button color="inherit" 
+  onClick={() => navigate("/About")}>ABOUT</Button>
+  <Button color="inherit" 
+  onClick={() => navigate("/Skills")}>SKILLS</Button>
+  <Button color="inherit" 
+  onClick={() => navigate("/Projects")}>PROJECTS</Button>
+    <Button color="inherit" 
+  onClick={() => navigate("/Contact")}>CONTACT</Button>
+   <Button 
+   startIcon = {mode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon /> }
+   color="inherit" style= {styles}
+   onClick={() => setMode( mode === "light" ? "dark" : "light")}> {mode === "light" ? "dark" : "light"} Mode</Button>
+  </Toolbar>
+ </AppBar>
+
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/About" element={<About />} />
+    <Route path="/Skills" element={<Skill />} />
+    <Route path="/Projects" element={<Projects  />} />
+    <Route path="/Contact" element={<Contact  />} />
+          </Routes>  
+  </div>
+  </Paper>
+     </ThemeProvider>
+
   );
 }
+
 export default App;

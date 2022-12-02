@@ -1,0 +1,33 @@
+.home-content{
+    margin-top: 100px;
+    padding: 20px;
+    font-family: "trispace";
+
+}
+
+.home-page{
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "trispace";
+}
+.home-right{
+    margin-bottom: 200px;
+    height: 80px;
+
+}
+.homes{
+    font-size: 80px;
+    text-transform: capitalize;
+    display: flex;
+    gap:20px;
+     color:black;
+     font-family: "trispace";
+}
+.fa {
+    font-size: 30px;
+}
+.home-btn{
+    margin-right: 10px;
+    
+}

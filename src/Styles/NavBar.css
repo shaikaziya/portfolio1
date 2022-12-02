@@ -1,0 +1,10 @@
+.port{
+    background-color: #316EB6;
+    display: flex;
+    justify-content: flex-end;
+}
+.ion{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
