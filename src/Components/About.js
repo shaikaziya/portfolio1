@@ -2,7 +2,7 @@ import React from "react";
 import Button from "@mui/material/Button";
 
 import "../Styles/About.css";
-import about from "../images/about.jpg";
+import about from "../images/about.svg";
 const About = () => {
   return (
     <div className="abt">

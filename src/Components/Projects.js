@@ -65,19 +65,19 @@ function Projects() {
 
             <div class="col-lg-4 col-md-4 col-sm-4">
               <div class="insidebox text-center">
-                <img className="img" src="https://media1.giphy.com/media/26FPJGjhefSJuaRhu/giphy.gif" alt={project1} />
-                <h5>Chat App</h5>
+                <img className="img" src="https://i.gifer.com/origin/41/41297901c13bc7325dc7a17bba585ff9_w200.gif" alt={project1} />
+                <h5>Quiz App</h5>
                 
                 <div className="card-footer">
                   <p>
                     <span style={{ color: "black" }}>TECH USED : </span>
-                    REACT, NODE, EXPRESS, MONGODB,Socket.io
+                    REACT, NODE, EXPRESS, MONGODB
                   </p>
                 </div>
                 <div className="git">
                   <Button
                     target="_blank"
-                    href=""
+                    href="https://github.com/shaikaziya/client"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
@@ -97,7 +97,7 @@ function Projects() {
                   </Button>
                   <Button
                     target="_blank"
-                    href=""
+                    href="https://github.com/shaikaziya/server"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
@@ -113,19 +113,19 @@ function Projects() {
 
             <div class="col-lg-4 col-md-4 col-sm-4">
               <div class="insidebox text-center">
-                <img className="img" src="https://media1.giphy.com/media/26FPJGjhefSJuaRhu/giphy.gif" alt={project1} />
+                <img className="img" src="https://media.tenor.com/mD8MdviFVWAAAAAC/spotify-spotify-live.gif" alt={project1} />
                 <h5>Chat App</h5>
                 
                 <div className="card-footer">
                   <p>
                     <span style={{ color: "black" }}>TECH USED : </span>
-                    REACT, NODE, EXPRESS, MONGODB,Socket.io
+                    REACT, NODE, EXPRESS, MONGODB
                   </p>
                 </div>
                 <div className="git">
                   <Button
                     target="_blank"
-                    href=""
+                    href="https://github.com/shaikaziya/Spotify-Clone"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
@@ -135,7 +135,7 @@ function Projects() {
                   </Button>
                   <Button
                     target="_blank"
-                    href=""
+                    href="https://github.com/shaikaziya/Spotify-Clone"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
