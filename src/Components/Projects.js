@@ -24,15 +24,62 @@ function Projects() {
           <div class="row">
             <h1 className="project">PROJECTS</h1>
 
+
             <div class="col-lg-4 col-md-4 col-sm-4">
               <div class="insidebox text-center">
-                <img className="img" src="https://images.bhaskarassets.com/web2images/521/2019/11/27/fasttag_1574847691.gif" alt={project1} />
-                <h5>Toll Management System</h5>
+                <img className="img" src="https://img.freepik.com/free-vector/quiz-word-concept_23-2147844150.jpg?w=740&t=st=1679298571~exp=1679299171~hmac=3695d083b148dd2526a6c6e3b2a2c28af863b733ccbc3de30d49f0b53c6bc8b0" alt={project1} />
+                <h5>Quiz-App</h5>
                 
                 <div className="card-footer">
                   <p>
                     <span style={{ color: "black" }}>TECH USED : </span>
-                    REACT
+                    Mongo DB, Express JS, Node JS, React JS
+                  </p>
+                </div>
+                <div className="git">
+                  <Button
+                    target="_blank"
+                    href="https://github.com/shaikaziya/quiz_app_client"
+                    rel="noreferrer"
+                    variant="contained"
+                    className="live-btn"
+                  >
+                    Front-end
+                  </Button>
+                  <Button
+                    target="_blank"
+                    href="https://github.com/shaikaziya/quiz_app_server"
+                    rel="noreferrer"
+                    variant="contained"
+                    className="live-btn"
+                  >
+                    Back-end
+                  </Button>
+                 
+                  <Button
+                    target="_blank"
+                    href=""
+                    rel="noreferrer"
+                    variant="contained"
+                    className="live-btn"
+                  >
+                    Live site
+                  </Button>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <div class="insidebox text-center">
+                <img className="img" src="https://tse1.mm.bing.net/th?id=OIP.sWolp8ZSQmLANZ8QuGbuygHaFT&pid=Api&P=0" alt={project1} />
+                <h5>E-Shop Spot</h5>
+                
+                <div className="card-footer">
+                  <p>
+                    <span style={{ color: "black" }}>TECH USED : </span>
+                    Mongo DB, Express JS, Node JS, React JS, Bootstrap, Paypal, Redux
                   </p>
                 </div>
                 <div className="git">
@@ -43,8 +90,16 @@ function Projects() {
                     variant="contained"
                     className="live-btn"
                   >
-                    <GitHubIcon />
-                    FE
+                    Front-end
+                  </Button>
+                  <Button
+                    target="_blank"
+                    href="https://github.com/shaikaziya/toll-management-system"
+                    rel="noreferrer"
+                    variant="contained"
+                    className="live-btn"
+                  >
+                    Back-end
                   </Button>
                  
                   <Button
@@ -54,55 +109,7 @@ function Projects() {
                     variant="contained"
                     className="live-btn"
                   >
-                    LIVE
-                  </Button>
-                </div>
-              </div>
-            </div>
-
-           
-
-
-            <div class="col-lg-4 col-md-4 col-sm-4">
-              <div class="insidebox text-center">
-                <img className="img" src="https://i.gifer.com/origin/41/41297901c13bc7325dc7a17bba585ff9_w200.gif" alt={project1} />
-                <h5>Quiz App</h5>
-                
-                <div className="card-footer">
-                  <p>
-                    <span style={{ color: "black" }}>TECH USED : </span>
-                    REACT, NODE, EXPRESS, MONGODB
-                  </p>
-                </div>
-                <div className="git">
-                  <Button
-                    target="_blank"
-                    href="https://github.com/shaikaziya/client"
-                    rel="noreferrer"
-                    variant="contained"
-                    className="live-btn"
-                  >
-                    <GitHubIcon />
-                    FE
-                  </Button>
-                  <Button
-                    target="_blank"
-                    href=""
-                    rel="noreferrer"
-                    variant="contained"
-                    className="live-btn"
-                  >
-                    <GitHubIcon />
-                    BE
-                  </Button>
-                  <Button
-                    target="_blank"
-                    href="https://github.com/shaikaziya/server"
-                    rel="noreferrer"
-                    variant="contained"
-                    className="live-btn"
-                  >
-                    LIVE
+                    Live site
                   </Button>
                 </div>
               </div>
@@ -113,44 +120,43 @@ function Projects() {
 
             <div class="col-lg-4 col-md-4 col-sm-4">
               <div class="insidebox text-center">
-                <img className="img" src="https://media.tenor.com/mD8MdviFVWAAAAAC/spotify-spotify-live.gif" alt={project1} />
-                <h5>Chat App</h5>
+                <img className="img" src="https://cdn.dribbble.com/users/1894420/screenshots/11700268/media/1ad21c9ccda8d2875edf5cfad781fd2d.gif" alt={project1} />
+                <h5>Google Meet Clone</h5>
                 
                 <div className="card-footer">
                   <p>
                     <span style={{ color: "black" }}>TECH USED : </span>
-                    REACT, NODE, EXPRESS, MONGODB
+                    Mongo DB, Express JS, Node JS, React JS, Material UI, Peer JS, WebRTC
                   </p>
                 </div>
                 <div className="git">
                   <Button
                     target="_blank"
-                    href="https://github.com/shaikaziya/Spotify-Clone"
+                    href="https://github.com/shaikaziya/toll-management-system"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
                   >
-                    <GitHubIcon />
-                    FE
+                    Front-end
                   </Button>
                   <Button
                     target="_blank"
-                    href="https://github.com/shaikaziya/Spotify-Clone"
+                    href="https://github.com/shaikaziya/toll-management-system"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
                   >
-                    <GitHubIcon />
-                    BE
+                    Back-end
                   </Button>
+                 
                   <Button
                     target="_blank"
-                    href=""
+                    href="https://strong-yeot-b568e2.netlify.app"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
                   >
-                    LIVE
+                    Live site
                   </Button>
                 </div>
               </div>
@@ -160,51 +166,47 @@ function Projects() {
 
             <div class="col-lg-4 col-md-4 col-sm-4">
               <div class="insidebox text-center">
-                <img className="img" src="https://media.tenor.com/besbrKR8NUIAAAAM/movie-time-film.gif" alt={project1} />
-                <h5>Movie App</h5>
+                <img className="img" src="https://tse3.mm.bing.net/th?id=OIP.IJZCtEWDNVRwqH6fctIFjwHaFj&pid=Api&P=0" alt={project1} />
+                <h5>Expense Management App</h5>
                 
                 <div className="card-footer">
                   <p>
                     <span style={{ color: "black" }}>TECH USED : </span>
-                    REACT, NODE, EXPRESS, MONGODB
+                    Mongo DB, Express JS, Node JS, React JS, Ant Design, Bootstrap, Context API
                   </p>
                 </div>
                 <div className="git">
                   <Button
                     target="_blank"
-                    href="https://github.com/shaikaziya/my-projects"
+                    href="https://github.com/shaikaziya/toll-management-system"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
                   >
-                    <GitHubIcon />
-                    FE
+                    Front-end
                   </Button>
                   <Button
                     target="_blank"
-                    href="https://github.com/shaikaziya/Node-Express-Nodemon"
+                    href="https://github.com/shaikaziya/toll-management-system"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
                   >
-                    <GitHubIcon />
-                    BE
+                    Back-end
                   </Button>
+                 
                   <Button
                     target="_blank"
-                    href="https://unrivaled-nougat-1b89c6.netlify.app/"
+                    href="https://strong-yeot-b568e2.netlify.app"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
                   >
-                    LIVE
+                    Live site
                   </Button>
                 </div>
               </div>
             </div>
-
-
-
 
        
           </div>
