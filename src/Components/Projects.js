@@ -58,7 +58,7 @@ function Projects() {
                  
                   <Button
                     target="_blank"
-                    href=""
+                    href="https://quiz-app-client-eta.vercel.app/"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
@@ -68,54 +68,6 @@ function Projects() {
                 </div>
               </div>
             </div>
-
-
-
-            <div class="col-lg-4 col-md-4 col-sm-4">
-              <div class="insidebox text-center">
-                <img className="img" src="https://tse1.mm.bing.net/th?id=OIP.sWolp8ZSQmLANZ8QuGbuygHaFT&pid=Api&P=0" alt={project1} />
-                <h5>E-Shop Spot</h5>
-                
-                <div className="card-footer">
-                  <p>
-                    <span style={{ color: "black" }}>TECH USED : </span>
-                    Mongo DB, Express JS, Node JS, React JS, Bootstrap, Paypal, Redux
-                  </p>
-                </div>
-                <div className="git">
-                  <Button
-                    target="_blank"
-                    href="https://github.com/shaikaziya/toll-management-system"
-                    rel="noreferrer"
-                    variant="contained"
-                    className="live-btn"
-                  >
-                    Front-end
-                  </Button>
-                  <Button
-                    target="_blank"
-                    href="https://github.com/shaikaziya/toll-management-system"
-                    rel="noreferrer"
-                    variant="contained"
-                    className="live-btn"
-                  >
-                    Back-end
-                  </Button>
-                 
-                  <Button
-                    target="_blank"
-                    href="https://strong-yeot-b568e2.netlify.app"
-                    rel="noreferrer"
-                    variant="contained"
-                    className="live-btn"
-                  >
-                    Live site
-                  </Button>
-                </div>
-              </div>
-            </div>
-
-
 
 
             <div class="col-lg-4 col-md-4 col-sm-4">
@@ -126,13 +78,13 @@ function Projects() {
                 <div className="card-footer">
                   <p>
                     <span style={{ color: "black" }}>TECH USED : </span>
-                    Mongo DB, Express JS, Node JS, React JS, Material UI, Peer JS, WebRTC
+                    Mongo DB, Express JS, Node JS, React JS, Bootstrap, Material UI, Peer JS, WebRTC
                   </p>
                 </div>
                 <div className="git">
                   <Button
                     target="_blank"
-                    href="https://github.com/shaikaziya/toll-management-system"
+                    href="https://github.com/shaikaziya/meet_clone_frontend"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
@@ -141,7 +93,7 @@ function Projects() {
                   </Button>
                   <Button
                     target="_blank"
-                    href="https://github.com/shaikaziya/toll-management-system"
+                    href="https://github.com/shaikaziya/meet_clone_backend"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
@@ -151,7 +103,7 @@ function Projects() {
                  
                   <Button
                     target="_blank"
-                    href="https://strong-yeot-b568e2.netlify.app"
+                    href="https://meet-clone-frontend.vercel.app/"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
@@ -161,7 +113,6 @@ function Projects() {
                 </div>
               </div>
             </div>
-
 
 
             <div class="col-lg-4 col-md-4 col-sm-4">
@@ -178,7 +129,7 @@ function Projects() {
                 <div className="git">
                   <Button
                     target="_blank"
-                    href="https://github.com/shaikaziya/toll-management-system"
+                    href="https://github.com/shaikaziya/expense_management_app_MERN"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
@@ -187,7 +138,7 @@ function Projects() {
                   </Button>
                   <Button
                     target="_blank"
-                    href="https://github.com/shaikaziya/toll-management-system"
+                    href="https://github.com/shaikaziya/expense_management_app_MERN"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
@@ -197,7 +148,7 @@ function Projects() {
                  
                   <Button
                     target="_blank"
-                    href="https://strong-yeot-b568e2.netlify.app"
+                    href="https://expense-management-app-mern.vercel.app/"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
@@ -209,6 +160,54 @@ function Projects() {
             </div>
 
        
+
+
+
+
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <div class="insidebox text-center">
+                <img className="img" src="https://tse3.mm.bing.net/th?id=OIP.qK9F1E1iB3piswkWTBWRPwHaEK&pid=Api&P=0" alt={project1} />
+                <h5>Movie App</h5>
+                
+                <div className="card-footer">
+                  <p>
+                    <span style={{ color: "black" }}>TECH USED : </span>
+                    Mongo DB, Express JS, Node JS, React JS, Bootstrap, Paypal, Redux
+                  </p>
+                </div>
+                <div className="git">
+                  <Button
+                    target="_blank"
+                    href="https://github.com/shaikaziya/my-projects"
+                    rel="noreferrer"
+                    variant="contained"
+                    className="live-btn"
+                  >
+                    Front-end
+                  </Button>
+                  <Button
+                    target="_blank"
+                    href="https://github.com/shaikaziya/Node-Express-Nodemon"
+                    rel="noreferrer"
+                    variant="contained"
+                    className="live-btn"
+                  >
+                    Back-end
+                  </Button>
+                 
+                  <Button
+                    target="_blank"
+                    href="https://my-projects-swart-zeta.vercel.app/"
+                    rel="noreferrer"
+                    variant="contained"
+                    className="live-btn"
+                  >
+                    Live site
+                  </Button>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
