@@ -167,7 +167,7 @@ function Projects() {
             <div class="col-lg-4 col-md-4 col-sm-4">
               <div class="insidebox text-center">
                 <img className="img" src="https://tse3.mm.bing.net/th?id=OIP.qK9F1E1iB3piswkWTBWRPwHaEK&pid=Api&P=0" alt={project1} />
-                <h5>Movie App</h5>
+                <h5>E-Commerce Cart</h5>
                 
                 <div className="card-footer">
                   <p>
@@ -178,7 +178,7 @@ function Projects() {
                 <div className="git">
                   <Button
                     target="_blank"
-                    href="https://github.com/shaikaziya/my-projects"
+                    href="https://github.com/shaikaziya/mern-e-commerce-app-frontend"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
@@ -187,7 +187,7 @@ function Projects() {
                   </Button>
                   <Button
                     target="_blank"
-                    href="https://github.com/shaikaziya/Node-Express-Nodemon"
+                    href="https://github.com/shaikaziya/mern-e-commerce-app-backend"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
@@ -197,7 +197,7 @@ function Projects() {
                  
                   <Button
                     target="_blank"
-                    href="https://my-projects-swart-zeta.vercel.app/"
+                    href="https://mern-e-commerce-app-frontend.vercel.app/"
                     rel="noreferrer"
                     variant="contained"
                     className="live-btn"
