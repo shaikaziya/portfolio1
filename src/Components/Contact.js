@@ -15,10 +15,10 @@ return (
         <div className='contact-left'>
          <h1 className='contact-title'>Get In Touch</h1>
           <div className='contact-info'>
-            <div className='contact-info-item'>
+            {/* <div className='contact-info-item'>
           <img src={Phone} alt="" className="contact-icon" />
               +91-9701658255
-            </div>
+            </div> */}
             <div className='contact-info-item'>
              <img src={Email} alt="" className="contact-icon" />
               shaikaziya1234@gmail.com
