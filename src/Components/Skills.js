@@ -22,7 +22,7 @@ function Skills() {
                             <div className="technology" style={{backgroundColor:"rgb(67,43,98)"}}>MYSQL </div>
                             <div className="technology" style={{backgroundColor:"rgb(133, 105, 105)"}}>GITHUB <i className="fa-brands fa-github"></i></div>
                             <div className="technology" style={{backgroundColor:"rgb(59,122,87)"}}>JQUERY </div>
-                            <div className="technology" style={{backgroundColor:"rgb(255,149,128)"}}>AJAX </div>
+                            <div className="technology" style={{backgroundColor:"rgb(0,153,153)"}}>AJAX </div>
             </div>
            
                     </div>
