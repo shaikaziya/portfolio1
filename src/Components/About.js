@@ -41,7 +41,6 @@ const About = () => {
             rel="noreferrer"
             size="large"
           >
-            
             Resume
           </Button>
         </div>
