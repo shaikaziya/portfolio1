@@ -26,12 +26,22 @@ const About = () => {
           skills for mutual growth and benefit of company and myself.
         </p>
         <div className="resume">
-          <Button
+          {/* <Button
             target="_blank"
             href="https://drive.google.com/file/d/1Geen5JtzTkCWcxd3ABA_5vQ6TcSLfmPz/view?usp=share_link"
             rel="noreferrer"
             size="large"
           >
+            
+            Resume
+          </Button> */}
+          <Button
+            target="_blank"
+            href="https://drive.google.com/file/d/1Ov0xaAIEqRJPOmcu3xcQ2Bg81aJKNDG6/view?usp=sharing"
+            rel="noreferrer"
+            size="large"
+          >
+            
             Resume
           </Button>
         </div>
