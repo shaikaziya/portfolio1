@@ -35,9 +35,15 @@ const About = () => {
             
             Resume
           </Button> */}
-          <Button
+          {/* <Button
             target="_blank"
             href="https://drive.google.com/file/d/1DC7lGpyfUUHkX1ZfNvXn9eeST0Qtpcmi/view?usp=sharing"
+            rel="noreferrer"
+            size="large"
+          > */}
+          <Button
+            target="_blank"
+            href="https://drive.google.com/file/d/1tyQpuRAuJ0pcjstXNfigB9PjH-j6MzsX/view?usp=drive_link"
             rel="noreferrer"
             size="large"
           >
