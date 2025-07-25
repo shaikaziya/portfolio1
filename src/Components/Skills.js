@@ -23,6 +23,8 @@ function Skills() {
                             <div className="technology" style={{backgroundColor:"rgb(133, 105, 105)"}}>GITHUB <i className="fa-brands fa-github"></i></div>
                             <div className="technology" style={{backgroundColor:"rgb(59,122,87)"}}>JQUERY </div>
                             <div className="technology" style={{backgroundColor:"rgb(0,153,153)"}}>AJAX </div>
+                             <div className="technology" style={{backgroundColor:"rgb(51, 103, 145)"}}>POSTGRESQL <i className="fa-brands fa-react"></i></div>
+                           
             </div>
            
                     </div>
