@@ -43,7 +43,7 @@ const About = () => {
           > */}
           <Button
             target="_blank"
-            href="https://drive.google.com/file/d/1tyQpuRAuJ0pcjstXNfigB9PjH-j6MzsX/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1eVFHhBnfR77EU6raAJHYIwSkOlUJ4VJy/view?usp=sharing"
             rel="noreferrer"
             size="large"
           >
